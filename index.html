@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ur" dir="rtl">
+<html lang="en" dir="ltr"> <!-- यहाँ dir="ltr" कर दिया है ताकि इंग्लिश टेक्स्ट सही दिखे -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,8 @@
     <style>
         body {
             margin: 0; padding: 0;
-            font-family: 'Arial', sans-serif;
-            /* اپنی تصویر کا لنک یہاں لگائیں */
-            background: url('https://i.imgur.com/YOUR_IMAGE_LINK.jpg') no-repeat center center fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #2c3e50; /* फिलहाल बैकग्राउंड कलर दिया है, बाद में फोटो लिंक लगा लें */
             background-size: cover;
             display: flex; justify-content: center; align-items: center;
             min-height: 100vh;
@@ -32,15 +31,14 @@
             color: #eee;
         }
 
-        .img-grid { display: flex; justify-content: space-between; margin-bottom: 20px; }
-        .grid-img { width: 30%; border-radius: 10px; border: 2px solid #fff; }
-
         .btn {
             display: block; padding: 15px; margin: 12px 0;
             text-decoration: none; color: white; font-weight: bold;
             border-radius: 50px; transition: 0.4s; border: 2px solid white;
+            text-align: center; /* टेक्स्ट को सेंटर करने के लिए */
         }
         .yt { background: #ff0000; }
+        .yt:hover { background: #cc0000; }
     </style>
 </head>
 <body>
@@ -52,8 +50,8 @@
             Official Portfolio of Mister-G: 🎮 Pro Free Fire Gameplay, HD Photo Editing, and Custom Music/Rap Production. Looking for top-quality creative work? I provide professional editing and music services that you can easily order. Explore my work and let's collaborate!
         </p>
         
-        <!-- یہاں اپنے بٹنز شامل کریں -->
-        <a href="#" class="btn yt">YouTube چینل</a>
+        <!-- यहाँ अपना असली YouTube लिंक लगाएं -->
+        <a href="https://www.youtube.com/@YOUR_CHANNEL_ID" class="btn yt">YouTube چینل</a>
     </div>
 </body>
 </html>
