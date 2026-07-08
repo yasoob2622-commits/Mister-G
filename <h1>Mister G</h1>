@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <title>Mister-G Official Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f4f4f4; }
+        .section { margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background: white; max-width: 400px; }
+        a { display: block; margin: 15px 0; color: #007bff; text-decoration: none; font-weight: bold; font-size: 18px; }
+        h1, h2 { color: #333; }
+        .update-box { border: 2px dashed #007bff; padding: 10px; margin-top: 10px; background-color: #e9f5ff; }
+    </style>
+</head>
+<body>
+
+    <h1>مِسٹر جی (Mister-G) کی آفیشل ویب سائٹ</h1>
+    <p>گیمنگ | ایچ ڈی فوٹو ایڈیٹنگ | میوزک اور ریپ پروڈکشن</p>
+
+    <!-- یہ وہ جگہ ہے جہاں آپ روزانہ اپنا نیا لنک ڈال سکتے ہیں -->
+    <div class="section">
+        <h2>ڈیلی اپڈیٹس (ویڈیو/تصویر)</h2>
+        <div class="update-box">
+            <a href="اپنا-نیا-لنک-یہاں-لکھیں">آج کی نئی ویڈیو / پوسٹ دیکھیں</a>
+            <p style="font-size: 12px; color: #555;">(آپ جب چاہیں اس لنک کو بدل سکتے ہیں)</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>میرے سوشل لنکس</h2>
+        <a href="https://youtube.com/@mister_gya?si=vzt-Hd0DuyX3YJEX">YouTube چینل</a>
+        <a href="https://www.tiktok.com/@music.lovers804?_r=1&_t=ZN-97rJUTgIziA">TikTok اکاؤنٹ 1</a>
+        <a href="https://www.tiktok.com/@mister_gya?_r=1&_t=ZN-97rJW1L7gve">TikTok اکاؤنٹ 2</a>
+        <a href="https://ffshare.garena.com/?region=PK&lang=en">Free Fire پروفائل</a>
+    </div>
+
+    <div class="section">
+        <h2>رابطہ اور آرڈر (WhatsApp)</h2>
+        <a href="https://wa.me/923425441278">WhatsApp پر میسج کریں</a>
+        <a href="https://whatsapp.com/channel/0029VbClVgFLI8Ye92G4tL01">WhatsApp چینل جوائن کریں</a>
+    </div>
+
+</body>
+</html>
