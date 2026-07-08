@@ -1,36 +1,62 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="ur" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Mister-G Official Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister G Official</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        .section { margin: 20px auto; padding: 20px; border: 2px dashed #000; max-width: 400px; }
-        a { display: block; margin: 15px 0; font-size: 18px; color: blue; text-decoration: none; }
-        h1, h2 { color: #333; }
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Arial', sans-serif;
+            /* اپنی تصویر کا لنک یہاں لگائیں */
+            background: url('https://i.imgur.com/YOUR_IMAGE_LINK.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh;
+        }
+        .overlay { background: rgba(0, 0, 0, 0.7); position: absolute; width: 100%; height: 100%; z-index: 1; }
+        
+        .main-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 30px; border-radius: 30px;
+            text-align: center; width: 90%; max-width: 450px;
+            z-index: 2; color: white; border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .img-grid { display: flex; justify-content: space-between; margin-bottom: 20px; }
+        .grid-img { width: 30%; border-radius: 10px; border: 2px solid #fff; }
+
+        .btn {
+            display: block; padding: 15px; margin: 12px 0;
+            text-decoration: none; color: white; font-weight: bold;
+            border-radius: 50px; transition: 0.4s; border: 2px solid white;
+        }
+        .yt { background: #ff0000; }
+        .tt { background: #000000; }
+        .wa { background: #25d366; }
+        .btn:hover { transform: scale(1.05); }
     </style>
 </head>
 <body>
 
+<div class="overlay"></div>
+
+<div class="main-card">
+    <div class="img-grid">
+        <img src="https://i.imgur.com/GAME_IMG_1.jpg" class="grid-img">
+        <img src="https://i.imgur.com/GAME_IMG_2.jpg" class="grid-img">
+        <img src="https://i.imgur.com/GAME_IMG_3.jpg" class="grid-img">
+    </div>
+
     <h1>Mister G</h1>
-    <p>آفیشل ویب سائٹ | ایچ ڈی فوٹو ایڈیٹنگ | میوزک اور ریپ پروڈکشن</p>
+    <p>ایڈیٹنگ، میوزک اور گیمنگ!</p>
 
-    <div class="section">
-        <h2>رابطہ اور لنکس</h2>
-        <a href="https://youtube.com/@mister_gya">YouTube چینل</a>
-        <a href="https://www.tiktok.com/@music.lovers804">TikTok 1</a>
-        <a href="https://www.tiktok.com/@mister_gya">TikTok 2</a>
-        <a href="https://ffshare.garena.com/?region=PK&lang=en">Free Fire</a>
-        <a href="https://wa.me/923425441278">WhatsApp Number</a>
-        <a href="#">WhatsApp Channel</a>
-    </div>
-
-    <div class="section">
-        <h2>مزید لنکس</h2>
-        <a href="#">نیا لنک 1</a>
-        <a href="#">نیا لنک 2</a>
-        <a href="#">نیا لنک 3</a>
-    </div>
+    <a href="https://youtube.com/@mister_gya" class="btn yt">YouTube چینل 📺</a>
+    <a href="https://www.tiktok.com/@music.lovers804" class="btn tt">TikTok 🎵</a>
+    <a href="https://wa.me/923425441278" class="btn wa">WhatsApp رابطہ 📱</a>
+</div>
 
 </body>
 </html>
